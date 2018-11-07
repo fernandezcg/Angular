@@ -1,4 +1,4 @@
-# Curso HTML y CSS #
+# Curso Angular #
 
 ## Inicialización ##
 
