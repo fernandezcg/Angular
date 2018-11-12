@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { HomeModule } from './home/home.module';
 import { AboutModule } from './about/about.module';
-import { TareasModule } from './tareas/tareas.module';
+// import { TareasModule } from './tareas/tareas.module';
 
 @NgModule({
   declarations: [
@@ -17,8 +17,8 @@ import { TareasModule } from './tareas/tareas.module';
     AppRoutingModule,
     CoreModule,
     HomeModule,
-    AboutModule,
-    TareasModule
+    AboutModule // ,
+    // TareasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
