@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-header">
+    Header
+  </div>
+  <div class="card-body">
+    <h4 class="card-title">SaludoLocal</h4>
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Escribe tu nombre"
+               #localName>
+      </div>
+      <button type="button" class="btn btn-primary" (click)="localName.value = localName.value" >Salvar</button>
+      <button type="button" class="btn btn-primary" (click)="localName.value=''" >Borrar</button>
+  </div>
+  <div class="card-footer text-muted">
+    Hola {{ localName.value}}
+  </div>
+</div>
