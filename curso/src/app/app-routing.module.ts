@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'home', loadChildren: './home/home.module#HomeModule' },
   // { path: 'tareas', component: TareasComponent }, // cambiamos a carga perezosa
   { path: 'tareas', loadChildren: './tareas/tareas.module#TareasModule' },
+  { path: 'contactos', loadChildren: './contactos/contactos.module#ContactosModule' },
   // { path: 'about', component: AboutComponent },
   { path: 'about', loadChildren: './about/about.module#AboutModule' },
   // { path: '', pathMatch: 'full', redirectTo: 'home' },

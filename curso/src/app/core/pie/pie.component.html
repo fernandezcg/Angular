@@ -2,6 +2,7 @@
     <div class="row">
       <footer class="col text-center">
         <address class="col-12">{{empresa}} - {{lugar}}</address>
+        <p>{{ fecha | date : 'fullDate' : '' : 'es' | titlecase }}</p>
       </footer>
     </div>
   </div>
